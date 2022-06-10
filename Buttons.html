@@ -3,7 +3,6 @@
         margin: 10px 18px 10px 18px;
     }
 
-
     .uber-button {
         background-color: #333333;
         color: white;
@@ -81,6 +80,15 @@
         border-radius: 2px;
         padding: 10px 16px 10px 16px;
         font-weight: bold;
+        transition: opacity 0.3s;
+    }
+
+    .youtube-button:hover {
+        opacity: 0.6;
+    }
+
+    .youtube-button:active {
+        opacity: 0.4;
     }
 
     .join-button {
@@ -100,6 +108,16 @@
         font-size: 15px;
         font-weight: bold;
         cursor: pointer;
+        transition: background-color 0.2s, color 0.2s;
+    }
+
+    .join-button:hover{
+        background-color: rgb(41, 118, 211);
+        color: white;
+    }
+
+    .join-button:active{
+        opacity: 0.8;
     }
 
     .tweet-button {
@@ -111,8 +129,16 @@
         font-size: 15px;
         font-weight: bold;
         cursor: pointer;
+        transition: box-shadow 0.15s;
     }
 
+    .tweet-button:hover {
+        box-shadow: 0 6px 12px lightgray;
+    }
+
+    .tweet-button:active {
+        opacity: 0.8;
+    }
 </style>
 
 <div>

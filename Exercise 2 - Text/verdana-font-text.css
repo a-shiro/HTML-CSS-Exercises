@@ -1,0 +1,30 @@
+p, button {
+    font-family: Verdana, serif;
+    margin: 0;
+}
+
+.course-title {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.secondary-title {
+    color: dimgray;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.course-description {
+    font-size: 19px;
+    width: 340px;
+    margin: 18px 0 18px 0;
+}
+
+.course-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 9px 18px 9px 18px;
+    font-size: 15px;
+}

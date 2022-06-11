@@ -1,0 +1,10 @@
+.shop-info {
+    background-color: #ff4141;
+    color: white;
+    padding: 18px;
+}
+
+.shop-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

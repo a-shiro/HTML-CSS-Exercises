@@ -1,0 +1,17 @@
+p {
+    font-family: Arial, serif;
+    text-align: center;
+}
+
+.shopping-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.learn-more-link {
+    color: steelblue;
+}
+
+.learn-more-link:hover {
+    text-decoration: underline;
+}

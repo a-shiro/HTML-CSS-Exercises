@@ -1,0 +1,16 @@
+.square-div, .circle-div {
+    display: inline-block;
+
+    width: 120px;
+    height: 120px;
+}
+
+.square-div {
+    background-color: red;
+}
+
+.circle-div {
+    border-radius: 60px;
+
+    background-color: green;
+}

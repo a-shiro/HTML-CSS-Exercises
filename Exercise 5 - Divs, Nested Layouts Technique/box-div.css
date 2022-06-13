@@ -1,0 +1,17 @@
+body {
+    font-family: Arial, serif;
+}
+
+p {
+    margin: 0;
+}
+
+.box {
+    display: inline-block;
+    border: 1px lightgray solid;
+    padding: 16px 80px 16px 16px;
+}
+
+.button-box {
+    margin-top: 12px;
+}

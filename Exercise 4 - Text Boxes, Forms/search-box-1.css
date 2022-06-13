@@ -1,0 +1,16 @@
+.search-box {
+    padding: 8px;
+    border-width: 1px;
+    border-color: lightgray;
+    border-style: solid;
+    border-radius: 4px;
+    width: 140px;
+}
+
+.search-box::placeholder {
+    color: gray;
+}
+
+.search-box:focus {
+    outline-color: lightgray;
+}

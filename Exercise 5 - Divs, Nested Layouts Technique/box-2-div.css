@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, serif;
+}
+
+div {
+    display: inline-block;
+    background-color: #333333;
+    padding: 20px;
+    width: 310px;
+}
+
+p {
+    margin: 0;
+}
+
+.heading-text {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.secondary-text {
+    color: lightgray;
+    font-size: 14px;
+}

@@ -1,0 +1,43 @@
+.menu-box {
+    width: 320px;
+
+    font-family: Arial, serif;
+
+    border-width: 1px;
+    border-color: #d2d2d2;
+    border-style: solid;
+    border-radius: 8px;
+}
+
+p {
+    margin: 0;
+}
+
+.col-1, .col-2, .col-3 {
+    display: flex;
+
+    flex-direction: row;
+
+    margin: 8px 10px 8px 10px;
+
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.col-2 {
+    margin: 12px 10px 12px 10px;
+}
+
+.notification-button {
+    padding: 4px 12px 4px 12px;
+
+    background-color: dodgerblue;
+    color: white;
+
+    border-width: 0;
+    border-radius: 12px;
+
+    font-size: 14px;
+    font-weight: bold;
+}

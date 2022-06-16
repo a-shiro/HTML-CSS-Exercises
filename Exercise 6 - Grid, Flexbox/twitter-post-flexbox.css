@@ -1,0 +1,87 @@
+p {
+    margin: 0;
+    line-height: 20px;
+}
+
+.container {
+    font-family: Arial, serif;
+
+    display: inline-flex;
+    flex-direction: row;
+    column-gap: 14px;
+
+    width: 405px;
+    padding: 10px;
+
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+
+}
+
+.profile-picture {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 6px;
+}
+
+.heading-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.twitter-username {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.at-username {
+    margin-left: 8px;
+
+    font-size: 14px;
+
+    color: #858585;
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+
+    margin-top: 8px;
+}
+
+.video-thumbnail {
+    padding: 10px 80px 10px 10px;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
+    background-color: #e7e7e7;
+}
+
+.video-info {
+    padding: 12px 0 12px 10px;
+
+    border-width: 1.5px;
+    border-style: solid;
+    border-color: #e7e7e7;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.video-link{
+    margin-bottom: 2px;
+
+    color: #858585;
+}
+
+
+

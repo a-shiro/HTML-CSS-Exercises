@@ -1,0 +1,44 @@
+body {
+    height: 1000px;
+}
+
+section {
+    background-color: #858585;
+    height: 500px;
+    margin-top: 200px;
+
+    text-align: center;
+
+}
+
+.sticky-navbar, .sticky-element {
+    background-color: black;
+    color: white;
+}
+
+.sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    padding: 20px;
+}
+
+.sticky-sidebar {
+    background-color: green;
+    color: white;
+
+    position: fixed;
+    left: 0;
+    top: 58px;
+    bottom: 0;
+
+    padding: 10px;
+}
+
+.sticky-element {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

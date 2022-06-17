@@ -1,0 +1,43 @@
+.video-box {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.video-thumbnail {
+    display: inline-block;
+
+    position: relative;
+
+    background-color: gray;
+
+    height: 100px;
+    width: 160px;
+}
+
+.close-video-button, .video-length {
+    background-color: black;
+    color: white;
+
+    font-family: Arial, serif;
+    font-size: 10px;
+}
+
+.close-video-button {
+    position: absolute;
+    top: -6px;
+    left: -6px;
+
+    border-radius: 9px;
+
+    padding: 3px 6px 3px 6px;
+}
+
+.video-length {
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+
+    border-radius: 1px;
+
+    padding: 1px 2px 1px 2px;
+}

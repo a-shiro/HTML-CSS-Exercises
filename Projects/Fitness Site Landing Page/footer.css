@@ -1,0 +1,19 @@
+.footer, .footer-icons {
+    display: flex;
+    flex: 1;
+}
+
+.footer {
+    justify-content: space-between;
+
+    margin-top: 20px;
+    padding: 18px
+}
+
+.footer-icons {
+    justify-content: end;
+}
+
+.footer-icons div {
+    margin-left: 12px;
+}

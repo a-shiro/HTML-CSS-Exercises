@@ -7,6 +7,11 @@
 }
 
 .cover-image-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 40px;
+
     position: absolute;
 
     text-align: center;
@@ -19,7 +24,7 @@
 }
 
 .cover-image-text {
-    width: 800px;
+    width: 700px;
 
     color: white;
 
@@ -40,7 +45,6 @@
     font-size: 22px;
 
     padding: 10px 14px;
-    margin-top: 40px;
 
     transition: background-color 0.15s, color 0.15s;
 }

@@ -1,0 +1,75 @@
+main {
+    display: flex;
+}
+
+.left-section, .middle-section {
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: rgb(85, 92, 111);
+    color: rgb(178, 182, 192);
+
+    width: 450px;
+
+}
+
+.left-section-title {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.left-section-traits p {
+    margin-top: 8px;
+}
+
+.left-section-icons i {
+    margin-right: 8px;
+}
+
+.left-section footer {
+    margin-top: 60px;
+}
+
+.middle-section, .right-section {
+    background-color: rgb(1, 189, 190);
+    color: white;
+}
+
+.middle-section-titles {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.middle-section-description, .middle-section-titles{
+    line-height: 24px;
+}
+
+.middle-section-description p {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.right-section {
+    flex: 1;
+
+    position: relative;
+}
+
+.right-section img {
+    width: 200px;
+    height: 200px;
+
+    border: 10px solid white;
+
+    position: absolute;
+
+    top: 50px;
+    right: 50px;
+}

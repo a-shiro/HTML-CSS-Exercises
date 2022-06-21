@@ -1,5 +1,8 @@
 main {
     display: flex;
+
+    max-width: 1600px;
+    margin: auto;
 }
 
 .left-section, .middle-section {
@@ -16,8 +19,7 @@ main {
     background-color: rgb(85, 92, 111);
     color: rgb(178, 182, 192);
 
-    width: 450px;
-
+    width: 100%;
 }
 
 .left-section-title {
@@ -27,6 +29,7 @@ main {
 
 .left-section-traits p {
     margin-top: 8px;
+
 }
 
 .left-section-icons i {
@@ -40,6 +43,8 @@ main {
 .middle-section, .right-section {
     background-color: rgb(1, 189, 190);
     color: white;
+
+    width: 75%;
 }
 
 .middle-section-titles {
@@ -53,23 +58,20 @@ main {
 
 .middle-section-description p {
     margin-top: 20px;
-    width: 300px;
+    width: 100%;
 }
 
 .right-section {
-    flex: 1;
-
     position: relative;
 }
 
 .right-section img {
-    width: 200px;
-    height: 200px;
+    width: 70%;
 
     border: 10px solid white;
 
     position: absolute;
 
-    top: 50px;
+    top: 35px;
     right: 50px;
 }

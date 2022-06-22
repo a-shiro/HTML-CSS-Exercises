@@ -1,0 +1,20 @@
+table, thead, tr, th, tbody, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 650px;
+    height: 250px;
+    margin-left: 620px;
+    margin-top: 50px;
+}
+
+tr {
+    height: 40px;
+}
+
+td {
+    text-indent: 10px;
+}

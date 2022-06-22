@@ -1,0 +1,52 @@
+body, h1, p {
+    margin: 0;
+}
+
+body {
+    padding-top: 2em;
+}
+
+main {
+    margin-top: 2.5em;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1400px;
+    width: 95%;
+
+    margin: auto;
+
+    box-sizing: border-box;
+
+    font-family: Roboto, sans-serif;
+}
+
+.container div {
+    border-left: solid #858585;
+    padding-left: 2em;
+}
+
+.title {
+    font-weight: 300;
+    letter-spacing: .5rem;
+}
+
+.subtitle {
+    margin-top: 1em;
+
+    word-spacing: .10rem;
+
+    color: #858585;
+}
+
+.services-description {
+    width: 35%;
+}

@@ -1,0 +1,37 @@
+section {
+    width: 30%;
+    margin: auto;
+}
+
+article {
+    margin-bottom: 3em;
+}
+
+.main-title, .article-title, .article-subtitle {
+    font-family: Arial, sans-serif;
+}
+
+.article-title, .article-subtitle {
+    margin: 0;
+}
+
+.main-title {
+    font-size: 3rem;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.article-subtitle {
+    font-size: 1.5rem;
+    margin-top: .25em;
+}
+
+.article-subtitle {
+    font-style: italic;
+    font-size: 1.25rem;
+
+}
+
+.article-content {
+    font-size: 1.2rem;
+}

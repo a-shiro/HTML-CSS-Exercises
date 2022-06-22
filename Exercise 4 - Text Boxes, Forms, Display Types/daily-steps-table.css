@@ -1,0 +1,20 @@
+h2, table{
+    font-family: Arial, sans-serif;
+}
+
+table, thead, tr, th, tbody, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table {
+    width: 20%;
+}
+
+tr {
+    height: 1.8em;
+}
+
+tbody, tfoot {
+    text-align: right;
+}

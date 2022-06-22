@@ -1,0 +1,21 @@
+section{
+    font-family: Arial, sans-serif;
+
+    background: lightgray;
+
+    padding: 2em 5em;
+
+    display: inline-block;
+}
+
+.title {
+    text-align: center;
+
+    margin-bottom: 1.25em;
+}
+
+li {
+    font-size: 1.25rem;
+    margin-top: 1em;
+    border-bottom: 1px solid #000;
+}

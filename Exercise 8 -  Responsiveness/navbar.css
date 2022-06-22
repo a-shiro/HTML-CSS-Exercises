@@ -35,7 +35,6 @@ body, h1, p , ul{
     color: #1792d2;
 }
 
-
 .navbar-list ul{
     font-family: Ubunto, sans-serif;
 
@@ -53,7 +52,6 @@ body, h1, p , ul{
 
     color: #707070;
 }
-
 
 @media (max-width: 700px) {
     .navbar {
@@ -81,6 +79,5 @@ body, h1, p , ul{
 
     .navbar-list li {
         margin: 0 0.5em 0 0.5em
-
     }
 }

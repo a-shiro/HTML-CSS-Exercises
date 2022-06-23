@@ -1,0 +1,109 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    width: 300px;
+    display: block;
+
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10em;
+}
+
+.form-left-section {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.form-image-text-top, .form-image-text-bottom, .form-image-icon {
+    position: absolute;
+
+    color: white;
+}
+
+.form-image-text-top {
+    top: 1em;
+
+    font-size: 1.5rem;
+}
+
+.form-image-text-bottom {
+    bottom: 3em;
+}
+
+.form-image-icon {
+    bottom: 1.5em;
+}
+
+.form-right-section {
+    display: flex;
+    align-items: center;
+
+    padding: 0 5em;
+
+    border: 2px solid rgb(56, 8, 42);
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form-right-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-right-section label {
+    font-size: .75rem;
+
+    margin-bottom: .7em;
+
+    color: #9b9b9b;
+}
+
+.form-right-section input {
+    border-width: 0 0 1px;
+
+    padding-left: 0;
+    margin-bottom: 2em;
+
+    width: 160px;
+}
+
+.form-right-section input::placeholder {
+    font-size: 1rem;
+
+    color: #565656;
+}
+
+.form-btn-box {
+    display: flex;
+    align-items: center;
+}
+
+.form-btn-box button {
+    margin-right: .75em;
+    padding: 0.5em 1.5em;
+
+    background-color: rgb(56, 8, 42);
+    color: white;
+
+    border-radius: 4px;
+}
+
+.form-btn-box p {
+    color: rgb(56, 8, 42);
+}
+
+

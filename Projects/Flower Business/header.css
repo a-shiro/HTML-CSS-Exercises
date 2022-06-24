@@ -1,10 +1,8 @@
-nav {
+.navbar {
     color: rgb(214, 116, 114);
-
-    padding: 1em 0;
 }
 
-ul {
+.navbar-list {
     padding: 0;
 
     list-style: none;
@@ -12,10 +10,11 @@ ul {
     text-align: center;
 }
 
-li {
+.navbar-list-item {
     display: inline-block;
 
-    margin: 0 2em;
+    margin: 0 1.5em;
+    padding: 1em 0;
 
     font-size: 1.2rem;
     font-weight: 500;

@@ -1,9 +1,9 @@
-body, ul, h1, h2, h4, p {
-    margin: 0;
-}
-
 body {
     font-family: Roboto, sans-serif;
+}
+
+body, ul, h1, h2, h4, p {
+    margin: 0;
 }
 
 footer {
@@ -11,10 +11,10 @@ footer {
     color: white;
 
     text-align: center;
-    padding: 1.5em 0;
 
     max-width: 1400px;
     width: 100%;
 
     margin: auto;
+    padding: 1.5em 0;
 }

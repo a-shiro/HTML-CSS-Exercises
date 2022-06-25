@@ -1,0 +1,11 @@
+img {
+    width: 40px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 0;
+    list-style: none;
+}

@@ -4,3 +4,35 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+ul {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2em;
+
+    margin: 0;
+    padding: 2.2em 0.2em;
+
+    list-style: none;
+
+    position: fixed;
+    top: 2.55em;
+
+    background-color: white;
+    z-index: 1;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: .5em;
+
+}
+
+li div {
+    font-size: .6rem;
+}
+
+img {
+    width: 24px;
+}

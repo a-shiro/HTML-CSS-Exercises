@@ -11,6 +11,8 @@ header {
     margin-bottom: 1em;
 
     border-bottom: 1px solid #cccccc;
+
+    background-color: white;
 }
 
 .left-section, .middle-section, .right-section {

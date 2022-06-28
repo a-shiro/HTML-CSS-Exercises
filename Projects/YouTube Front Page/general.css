@@ -4,6 +4,12 @@ body {
     font-family: Roboto, Arial, sans-serif;
 }
 
+main {
+    background-color: rgb(0, 0, 0, 0.05);
+    padding-top: 5em;
+    padding-left: 6em;
+}
+
 ul {
     display: flex;
     flex-direction: column;
@@ -12,13 +18,14 @@ ul {
     margin: 0;
     padding: 2.2em 0.2em;
 
+    height: 100%;
+
     list-style: none;
 
     position: fixed;
-    top: 2.55em;
+    top: 3.55em;
 
     background-color: white;
-    z-index: 1;
 }
 
 li {
@@ -36,3 +43,26 @@ li div {
 img {
     width: 24px;
 }
+
+/* Videos */
+
+.videos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2em;
+    column-gap: 1em;
+}
+
+.video-card {
+}
+
+.video-thumbnail {
+    width: 100%;
+    max-width: 440px;
+}
+
+.video-info {
+    display: flex;
+    align-items: start;
+}
+

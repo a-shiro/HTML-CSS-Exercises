@@ -21,7 +21,7 @@ header {
 
 .hamburger-menu {
     width: 24px;
-    margin: 0 1.5em;
+    margin: 0 2.5em;
 }
 
 .youtube-logo {
@@ -93,9 +93,9 @@ header {
 
 .right-section {
     align-items: center;
-    column-gap: 1.5em;
+    column-gap: 2.7em;
 
-    margin: 0 2em;
+    margin: 0 2.5em;
 }
 
 .icon {

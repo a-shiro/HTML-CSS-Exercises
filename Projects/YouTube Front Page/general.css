@@ -8,40 +8,11 @@ main {
     background-color: rgb(0, 0, 0, 0.05);
     padding-top: 5em;
     padding-left: 6em;
+    padding-right: 1.5em;
 }
 
-ul {
-    display: flex;
-    flex-direction: column;
-    row-gap: 2em;
-
+p {
     margin: 0;
-    padding: 2.2em 0.2em;
-
-    height: 100%;
-
-    list-style: none;
-
-    position: fixed;
-    top: 3.55em;
-
-    background-color: white;
-}
-
-li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    row-gap: .5em;
-
-}
-
-li div {
-    font-size: .6rem;
-}
-
-img {
-    width: 24px;
 }
 
 /* Videos */
@@ -49,7 +20,7 @@ img {
 .videos-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 2em;
+    row-gap: 4em;
     column-gap: 1em;
 }
 
@@ -59,10 +30,33 @@ img {
 .video-thumbnail {
     width: 100%;
     max-width: 440px;
+
+    display: block;
 }
 
 .video-info {
-    display: flex;
+    display: grid;
+    grid-template-columns: 2.6em 1fr;
+    column-gap: .4em;
     align-items: start;
+
+    margin-top: .8em;
 }
 
+.video-profile-image {
+    width: 36px;
+    border-radius: 18px;
+}
+
+.video-title {
+    font-weight: 500;
+    font-size: 0.88rem;
+
+    margin-bottom: 0.7em;
+}
+
+.video-secondary-text {
+    font-size: 0.75rem;
+
+    line-height: 1.5em;
+}

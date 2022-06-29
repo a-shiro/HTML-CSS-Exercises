@@ -1,0 +1,41 @@
+.videos-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 2.2em;
+    column-gap: 1em;
+}
+
+.video-thumbnail {
+    display: block;
+
+    width: 100%;
+}
+
+.video-details {
+    display: grid;
+    grid-template-columns: 2.6em 1fr;
+    column-gap: 2.5em;
+    align-items: start;
+
+    margin-top: 1.5em;
+}
+
+.video-profile-image {
+    width: 36px;
+
+    border-radius: 18px;
+}
+
+.video-title {
+    margin-bottom: 0.7em;
+
+    font-weight: 500;
+    font-size: 0.88rem;
+}
+
+.video-author, .video-stats {
+    font-size: 0.75rem;
+    line-height: 1.5em;
+
+    color: #707070;
+}

@@ -1,16 +1,11 @@
-body {
+body, p {
     margin: 0;
 
     font-family: Roboto, Arial, sans-serif;
 }
 
 main {
-    background-color: rgb(0, 0, 0, 0.05);
-    padding-top: 5em;
-    padding-left: 6em;
-    padding-right: 1.5em;
-}
+    background-color: #f9f9f9;
 
-p {
-    margin: 0;
+    padding: 5.1em 1.5em 0 6em;
 }

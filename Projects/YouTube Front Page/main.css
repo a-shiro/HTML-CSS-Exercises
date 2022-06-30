@@ -5,6 +5,27 @@
     column-gap: 1em;
 }
 
+@media (min-width: 870px) and (max-width: 1400px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 1.5em;
+    }
+}
+
+@media (max-width: 869px) {
+    .videos-grid {
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1.5em;
+    }
+}
+
+@media (max-width: 550px) {
+    .videos-grid {
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+    }
+}
+
 .video-thumbnail {
     display: block;
 

@@ -1,56 +1,10 @@
-body, ul, h1, p{
+body, ul, h1, h2, h3, p{
     margin: 0;
     padding: 0;
 }
 
-header {
-    background-color: #f1f1f1;
+main {
+    width: 92%;
 
-    padding-top: 2em;
-    padding-bottom: 3em;
-}
-
-.navbar-brand {
-    text-align: center;
-}
-
-.navbar-brand h1 {
-    font-family: Lora, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-
-    color: #143774;
-}
-
-.navbar-brand p {
-    font-family: Ubunto, sans-serif;
-    font-size: .5rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-
-    color: #1792D2;
-
-    margin-bottom: 3.5em;
-}
-
-.navbar-list {
-    list-style: none;
-
-    font-family: Ubunto, sans-serif;
-    font-size: .75rem;
-    font-weight: 700;
-    letter-spacing: 2px;
-
-    color: #707070;
-
-}
-
-.navbar-list-item {
-    text-align: center;
-
-    margin-bottom: 2em;
-}
-
-.navbar-list-item:last-child {
-    margin-bottom: 0;
+    margin: auto;
 }

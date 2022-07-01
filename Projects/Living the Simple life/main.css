@@ -1,0 +1,136 @@
+.heading-article {
+    border-bottom: 1px solid gray;
+
+    padding-bottom: 1.5em;
+    margin-bottom: 2em;
+}
+
+.article {
+    margin-bottom: 2em;
+}
+
+.heading-article-stats, .article-text {
+    font-family: Ubunto, sans-serif;
+    font-weight: 100;
+
+    color: #858585;
+}
+
+.article-img {
+    display: block;
+
+    width: 100%;
+
+    object-fit: cover;
+
+    margin-bottom: 2em;
+}
+
+.heading-article-stats {
+    font-size: .75rem;
+
+    margin-bottom: 1em;
+}
+
+.article-title {
+    font-family: Lora, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 100;
+
+    color: #143774;
+
+    margin-bottom: .5em;
+}
+
+.article-text {
+    font-size: .95rem;
+    line-height: 22px;
+
+    margin-bottom: 2em;
+}
+
+.starting-text {
+    font-weight: 700;
+
+    color: #6e6e6e;
+}
+
+.text-link {
+    text-decoration: underline;
+
+    color: #1792D2;
+}
+
+.article-read-more {
+    font-family: Ubunto, sans-serif;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    color: #1792D2;
+}
+
+.heading-aside-article {
+    border: 18px solid #f1f1f1;
+
+    padding: 1.5em 1em;
+    margin-bottom: 5em;
+}
+
+.aside-article-img {
+    height: 100px;
+    width: 100%;
+
+    object-fit: cover;
+
+    margin-bottom: 1.5em;
+}
+
+.article-aside-text {
+    color: #143774;
+
+    font-family: Ubunto, sans-serif;
+    font-size: .8rem;
+}
+
+.recent-posts {
+    border: 18px solid #f1f1f1;
+
+    padding: 1em;
+}
+
+.recent-posts h3 {
+    margin-bottom: 2.5em;
+
+    color: #143774;
+
+    font-family: Ubunto, sans-serif;
+    font-size: .75rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+
+.recent-posts-article {
+    border-bottom: 1px solid gray;
+
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.recent-posts-article:last-child {
+    border: none;
+}
+
+.recent-posts-article img {
+    height: 100px;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.recent-posts-article p {
+    color: #143774;
+
+    font-family: Lora, sans-serif;
+}

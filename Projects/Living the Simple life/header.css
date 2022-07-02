@@ -87,22 +87,11 @@ header {
     }
 
     .navbar-title {
-        font-size: 1.7rem;
+        font-size: 1.8rem;
     }
 
     .navbar-subtitle {
-        font-size: .60rem;
-
+        font-size: .65rem;
         margin-bottom: 0;
-    }
-}
-
-@media (min-width: 950px) {
-    .navbar-title {
-        font-size: 2rem;
-    }
-
-    .navbar-subtitle {
-        font-size: .75rem;
     }
 }

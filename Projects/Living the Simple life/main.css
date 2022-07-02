@@ -1,38 +1,35 @@
+.heading-article, .article {
+    margin-bottom: 2em;
+}
+
 .heading-article {
     border-bottom: 1px solid gray;
 
     padding-bottom: 1.5em;
+}
+
+.heading-article-img, .article-img {
+    object-fit: cover;
+}
+
+.heading-article-img {
     margin-bottom: 2em;
 }
 
-.article {
-    margin-bottom: 2em;
-}
-
-.heading-article-stats, .article-text {
+.heading-article-stats, .article-stats, .heading-article-text, .article-text {
     font-family: Ubunto, sans-serif;
     font-weight: 100;
 
     color: #858585;
 }
 
-.article-img {
-    display: block;
-
-    width: 100%;
-
-    object-fit: cover;
-
-    margin-bottom: 2em;
-}
-
-.heading-article-stats {
+.heading-article-stats, .article-stats{
     font-size: .75rem;
 
     margin-bottom: 1em;
 }
 
-.article-title {
+.heading-article-title, .article-title {
     font-family: Lora, sans-serif;
     font-size: 1.5rem;
     font-weight: 100;
@@ -42,26 +39,29 @@
     margin-bottom: .5em;
 }
 
-.article-text {
-    font-size: .95rem;
-    line-height: 22px;
-
+.heading-article-text {
     margin-bottom: 2em;
 }
 
-.starting-text {
+.heading-article-span-starting-text {
     font-weight: 700;
 
     color: #6e6e6e;
 }
 
-.text-link {
+.heading-article-span-text-link {
     text-decoration: underline;
 
     color: #1792D2;
 }
 
-.article-read-more {
+.heading-article-span-text-link:hover {
+    color: #143774;
+
+    cursor: pointer;
+}
+
+.heading-article-read-more {
     font-family: Ubunto, sans-serif;
     font-size: .75rem;
     font-weight: 700;
@@ -70,11 +70,26 @@
     color: #1792D2;
 }
 
+.article-img {
+    margin-bottom: 1em;
+}
+
+@media (min-width: 540px) {
+    .article-head {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .article-title {
+        order: -1;
+    }
+}
+
 .heading-aside-article {
     border: 18px solid #f1f1f1;
 
     padding: 1.5em 1em;
-    margin-bottom: 5em;
+    margin-bottom: 3em;
 }
 
 .aside-article-img {

@@ -8,3 +8,9 @@ main {
 
     margin: auto;
 }
+
+img {
+    width: 100%;
+
+    display: block;
+}

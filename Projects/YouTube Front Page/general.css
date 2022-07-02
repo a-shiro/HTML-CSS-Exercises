@@ -9,3 +9,9 @@ main {
 
     padding: 5.1em 1.5em 0 6em;
 }
+
+.flex {
+    display: flex;
+
+    position: relative;
+}

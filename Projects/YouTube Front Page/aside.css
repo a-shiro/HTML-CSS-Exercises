@@ -1,11 +1,11 @@
 .nav-list {
     display: flex;
     flex-direction: column;
-    row-gap: 1.92em;
 
     margin: 0;
-    padding: 1.2em 0.1em;
+    padding: .2em 0;
 
+    width: 4.5em;
 
     list-style: none;
 
@@ -20,13 +20,22 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    row-gap: .4em;
+
+    padding: 1em 0;
 }
 
-img {
+.nav-list-item:hover {
+    cursor: pointer;
+
+    background-color: #eaeaea;
+}
+
+.nav-list-item img {
     width: 24px;
+
+    margin-bottom: .4em;
 }
 
 div {
-    font-size: 0.625rem;
+    font-size: .625rem;
 }

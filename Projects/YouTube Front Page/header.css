@@ -26,6 +26,8 @@ header {
     width: 24px;
 
     display: block;
+
+    cursor: pointer;
 }
 
 .hamburger-menu {
@@ -34,6 +36,10 @@ header {
 
 .youtube-logo {
     width: 90px;
+
+    margin: 0;
+
+    cursor: pointer;
 }
 
 .middle-section {
@@ -122,4 +128,41 @@ header {
 
     border: 2px solid white;
     border-radius: 10px;
+}
+
+.tooltip {
+    background-color: rgba(56, 56, 56, 0.8);
+    color: #f3f3f3;
+
+    font-size: .755rem;
+
+    position: absolute;
+    bottom: -4em;
+    left: .3em;
+
+    border-radius: 2px;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: visibility 0.15s, opacity 0.15s;
+
+    padding: .9em .7em;
+
+    white-space: nowrap;
+}
+
+.search-button:hover + .tooltip{
+    visibility: visible;
+    opacity: 1;
+}
+
+.voice-search-button:hover + .tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.icon:hover + .tooltip {
+    visibility: visible;
+    opacity: 1;
 }

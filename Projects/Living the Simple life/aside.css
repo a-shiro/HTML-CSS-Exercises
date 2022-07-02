@@ -1,0 +1,67 @@
+.heading-aside-article {
+    border: 18px solid #f1f1f1;
+
+    padding: 1.5em 1em;
+    margin-bottom: 3em;
+}
+
+.heading-aside-article-img {
+    height: 100px;
+    width: 100%;
+
+    object-fit: cover;
+
+    margin-bottom: 1.5em;
+}
+
+.heading-aside-article-text {
+    color: #143774;
+
+    font-family: Ubunto, sans-serif;
+    font-size: .8rem;
+}
+
+.recent-posts {
+    border: 18px solid #f1f1f1;
+
+    padding: 1em;
+    margin-bottom: 3em;
+}
+
+.recent-posts-title {
+    margin-bottom: 2em;
+
+    color: #143774;
+
+    font-family: Ubunto, sans-serif;
+    font-size: .75rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.recent-posts-article {
+    border-bottom: 1px solid gray;
+
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.recent-posts-article-img {
+    object-fit: cover;
+
+    height: 100px;
+    width: 100%;
+
+    margin-bottom: 1em;
+}
+
+.recent-posts-article-title {
+    font-family: Lora, sans-serif;
+
+    color: #143774;
+}
+
+.recent-posts-article:last-child {
+    border: none;
+}
+

@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 
-.navbar-brand h1 {
+.navbar-title {
     font-family: Lora, sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
@@ -19,7 +19,7 @@ header {
     color: #143774;
 }
 
-.navbar-brand p {
+.navbar-subtitle {
     font-family: Ubunto, sans-serif;
     font-size: .5rem;
     font-weight: 700;
@@ -31,6 +31,10 @@ header {
 }
 
 .navbar-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     list-style: none;
 
     font-family: Ubunto, sans-serif;
@@ -44,9 +48,16 @@ header {
 .navbar-list-item {
     text-align: center;
 
+    padding-bottom: .5em;
     margin-bottom: 2em;
 }
 
 .navbar-list-item:last-child {
     margin-bottom: 0;
+}
+
+.current-page {
+    text-decoration: underline;
+
+    text-underline-offset: 6px;
 }

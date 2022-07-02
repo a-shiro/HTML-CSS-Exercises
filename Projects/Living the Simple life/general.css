@@ -14,3 +14,20 @@ img {
 
     display: block;
 }
+
+footer {
+    background-color: #143774;
+    color: #c0c0c0;
+
+    font-family: Ubunto, sans-serif;
+
+    text-align: center;
+
+    line-height: 22px;
+
+    padding: 4em 0;
+}
+
+footer p:first-child {
+    font-weight: 700;
+}

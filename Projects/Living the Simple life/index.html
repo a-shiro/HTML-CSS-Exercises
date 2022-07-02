@@ -10,24 +10,25 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300;400;500;700;900&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
 
   <link rel="stylesheet" href="general.css">
   <link rel="stylesheet" href="header.css">
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="aside.css">
 </head>
 
 <body>
 <header>
   <nav>
     <div class="navbar-brand">
-      <h1>Living the simple life</h1>
-      <p>A BLOG EXPLORING MINIMALISM IN LIFE</p>
+      <h1 class="navbar-title">Living the simple life</h1>
+      <p class="navbar-subtitle">A BLOG EXPLORING MINIMALISM IN LIFE</p>
     </div>
 
     <ul class="navbar-list">
-      <li class="navbar-list-item">HOME</li>
+      <li class="navbar-list-item current-page">HOME</li>
       <li class="navbar-list-item">ABOUT ME</li>
       <li class="navbar-list-item">RECENT POSTS</li>
     </ul>
@@ -43,9 +44,11 @@
     <h2 class="heading-article-title">Finding simplicity in life</h2>
 
     <p class="heading-article-text">
-      <span class="heading-article-span-starting-text">Life can get complicated really quickly</span>, but it doesn't have to be! There are
+      <span class="heading-article-span-starting-text">Life can get complicated really quickly</span>, but it doesn't
+      have to be! There are
       many ways to simplify
-      your life, <span class="heading-article-span-text-link">a few of which we've explored in the past.</span> This week we're taking a bit
+      your life, <span class="heading-article-span-text-link">a few of which we've explored in the past.</span> This
+      week we're taking a bit
       of an approach
       though, in how you can find simplicity in the life you are already living.
     </p>
@@ -100,31 +103,36 @@
 
   <aside>
     <article class="heading-aside-article">
-      <img class="aside-article-img" src="images/about-me.jpg" alt="">
+      <img class="heading-aside-article-img" src="images/about-me.jpg" alt="">
 
-      <p class="article-aside-text">I find life better, and im happier, when things are nice and simple.</p>
+      <p class="heading-aside-article-text">I find life better, and im happier, when things are nice and simple.</p>
     </article>
 
     <div class="recent-posts">
-      <h3>RECENT POSTS</h3>
+      <h3 class="recent-posts-title">RECENT POSTS</h3>
 
       <article class="recent-posts-article">
-        <img src="images/food.jpg" alt="">
-        <p>Keeping cooking simple</p>
+        <img class="recent-posts-article-img" src="images/food.jpg" alt="">
+        <p class="recent-posts-article-title">Keeping cooking simple</p>
       </article>
 
       <article class="recent-posts-article">
-        <img src="images/food.jpg" alt="">
-        <p>Keeping cooking simple</p>
+        <img class="recent-posts-article-img" src="images/work.jpg" alt="">
+        <p class="recent-posts-article-title">Simplicity and work</p>
       </article>
 
       <article class="recent-posts-article">
-        <img src="images/food.jpg" alt="">
-        <p>Keeping cooking simple</p>
+        <img class="recent-posts-article-img" src="images/deco.jpg" alt="">
+        <p class="recent-posts-article-title">Simple decorations</p>
       </article>
     </div>
   </aside>
 </main>
+
+<footer>
+  <p>Living the Simple Life</p>
+  <p>Copyright 2022</p>
+</footer>
 
 </body>
 </html>

@@ -1,11 +1,26 @@
-.heading-aside-article {
-    border: 18px solid #f1f1f1;
-
-    padding: 1.5em 1em;
-    margin-bottom: 3em;
+aside {
+    width: 100%;
 }
 
-.heading-aside-article-img {
+.about-me-title, .recent-posts-title {
+    margin-bottom: 2em;
+
+    color: #143774;
+
+    font-family: Ubunto, sans-serif;
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+.about-me {
+    border: 18px solid #f1f1f1;
+
+    margin-bottom: 3em;
+    padding: 1.5em;
+}
+
+.about-me-aside-article-img {
     height: 100px;
     width: 100%;
 
@@ -14,11 +29,12 @@
     margin-bottom: 1.5em;
 }
 
-.heading-aside-article-text {
+.about-me-aside-article-text {
     color: #143774;
 
     font-family: Ubunto, sans-serif;
     font-size: .8rem;
+    line-height: 18px;
 }
 
 .recent-posts {
@@ -26,17 +42,6 @@
 
     padding: 1em;
     margin-bottom: 3em;
-}
-
-.recent-posts-title {
-    margin-bottom: 2em;
-
-    color: #143774;
-
-    font-family: Ubunto, sans-serif;
-    font-size: .75rem;
-    font-weight: 900;
-    letter-spacing: 2px;
 }
 
 .recent-posts-article {
@@ -65,3 +70,8 @@
     border: none;
 }
 
+@media (min-width: 650px) {
+    aside {
+        max-width: 240px;
+    }
+}

@@ -1,8 +1,7 @@
 header {
     background-color: #f1f1f1;
 
-    padding-top: 2em;
-    padding-bottom: 3em;
+    padding: 2em 0;
 
     margin-bottom: 3em;
 }
@@ -13,7 +12,7 @@ header {
 
 .navbar-title {
     font-family: Lora, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     font-weight: 500;
 
     color: #143774;
@@ -21,34 +20,36 @@ header {
 
 .navbar-subtitle {
     font-family: Ubunto, sans-serif;
-    font-size: .5rem;
+    font-size: .55rem;
     font-weight: 700;
     letter-spacing: 2px;
+    line-height: 15px;
 
     color: #1792D2;
 
-    margin-bottom: 3.5em;
+    margin-bottom: 3em;
 }
 
 .navbar-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    list-style: none;
-
     font-family: Ubunto, sans-serif;
     font-size: .75rem;
     font-weight: 700;
     letter-spacing: 2px;
 
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     color: #707070;
 }
 
 .navbar-list-item {
+    position: relative;
+
     text-align: center;
 
-    padding-bottom: .5em;
     margin-bottom: 2em;
 }
 
@@ -60,20 +61,21 @@ header {
     color: inherit;
 }
 
-
 .navbar-list-item:last-child {
     margin-bottom: 0;
 }
 
-.current-page {
-    text-decoration: underline;
+.active-page {
+    position: absolute;
+    left: 1px;
+    right: 2px;
 
-    text-underline-offset: 6px;
+    margin: 5px 0;
 }
 
 @media (min-width: 650px) {
     header  {
-        padding: 6em 0;
+        padding: 5em 0;
     }
 
     nav {
@@ -88,7 +90,7 @@ header {
     }
 
     .navbar-list-item {
-        margin: 0 1.5em;
+        margin: 0 1em;
     }
 
     .navbar-list-item:last-child {
@@ -96,11 +98,17 @@ header {
     }
 
     .navbar-title {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .navbar-subtitle {
-        font-size: .65rem;
+        font-size: .6rem;
         margin-bottom: 0;
+    }
+}
+
+@media (min-width: 1090px) {
+    .navbar-list-item {
+        margin: 0 2em;
     }
 }

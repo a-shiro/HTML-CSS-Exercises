@@ -1,0 +1,57 @@
+.aside-heading, .aside-body {
+    border: 18px solid #f1f1f1;
+
+    padding: 1.5em;
+
+    color: #143774;
+
+    font-family: Ubunto, sans-serif;
+}
+
+.aside-heading {
+    margin-bottom: 2em;
+}
+
+.aside-body {
+    margin-bottom: 3.5em;
+}
+
+.aside-article-img {
+    height: 100px;
+    width: 100%;
+
+    object-fit: cover;
+
+    margin-bottom: 1.5em;
+}
+
+.aside-title {
+    font-size: 1rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+
+    margin-bottom: 1.5em;
+}
+
+.aside-article {
+    border-bottom: 1px solid #ababab;
+    box-shadow: 0 3px 2px -2px rgba(0, 0 ,0, 0.15);
+
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+
+.aside-body article:last-child {
+    border: none;
+    box-shadow: none;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.aside-article-title {
+    font-family: Lora, sans-serif;
+    font-size: 1.1rem;
+
+    color: #143774;
+}

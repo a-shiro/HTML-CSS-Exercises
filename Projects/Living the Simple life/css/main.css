@@ -1,82 +1,101 @@
-.heading-article, .article {
+.heading-article,
+.article {
     margin-bottom: 2em;
 }
 
+.left-section .article:last-child {
+    margin-bottom: 4em;
+}
+
+
 .heading-article {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #ababab;
+    box-shadow: 0 3px 2px -2px rgba(0, 0 ,0, 0.15);
 
     padding-bottom: 1.5em;
 }
 
-.heading-article-img, .article-img {
+.heading-article-img,
+.article-img {
     object-fit: cover;
+
+    margin-bottom: 1.5em;
 }
 
 .heading-article-img {
-    max-height: 340px;
-
     object-position: bottom;
 
-    margin-bottom: 2em;
+    max-height: 280px;
 }
 
-.heading-article-stats, .article-stats, .heading-article-text, .article-text {
-    font-family: Ubunto, sans-serif;
-    font-weight: 100;
+.article-title {
+    font-family: Lora, sans-serif;
+    font-size: 1.35rem;
+    font-weight: 500;
 
-    color: #858585;
+    color: #143774;
+
+    margin-bottom: .75em;
 }
 
-.heading-article-stats, .article-stats{
+.article-stats {
     font-size: .75rem;
 
     margin-bottom: 1em;
 }
 
-.heading-article-title, .article-title {
-    font-family: Lora, sans-serif;
-    font-size: 1.5rem;
-    font-weight: 100;
+.article-stats, .article-text {
+    font-family: Ubunto, sans-serif;
+    font-weight: 400;
 
-    color: #143774;
+    color: #858585;
+}
+
+.article-text {
+    font-size: .955rem;
+
+    line-height: 20px;
+
+    margin-bottom: 1.5em;
+}
+
+.article-paragraph-title {
+    color: #1792D2;
+
+    font-family: Lora, sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
 
     margin-bottom: .5em;
 }
 
-.heading-article-text {
-    margin-bottom: 2em;
-}
-
-.heading-article-span-starting-text {
+.bold {
     font-weight: 700;
 
     color: #6e6e6e;
 }
 
-.heading-article-span-text-link {
+.text-link {
     text-decoration: underline;
 
     color: #1792D2;
 }
 
-.heading-article-span-text-link:hover {
+.text-link:hover {
     color: #143774;
 
     cursor: pointer;
 }
 
-.heading-article-read-more {
+.read-more {
     font-family: Ubunto, sans-serif;
-    font-size: .75rem;
+    font-size: .8rem;
     font-weight: 700;
     letter-spacing: 2px;
 
     color: #1792D2;
 }
 
-.article-img {
-    margin-bottom: 1em;
-}
 
 @media (min-width: 650px) {
     .container {
@@ -89,8 +108,6 @@
     }
 
     .right-section {
-        display: flex;
-        justify-content: end;
         width: 30%;
     }
 }
@@ -103,6 +120,10 @@
 
     .article-img {
         height: 200px;
+    }
+
+    .article-stats {
+        margin-bottom: .5em;
     }
 
     .article-title {
@@ -118,4 +139,15 @@
         flex-direction: column;
         width: 72%;
     }
+}
+
+
+/* About me Page */
+
+.about-me-article {
+    margin-bottom: 4em;
+}
+
+.about-me-article-img {
+    margin-bottom: 1.5em;
 }

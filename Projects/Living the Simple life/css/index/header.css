@@ -52,6 +52,15 @@ header {
     margin-bottom: 2em;
 }
 
+.navbar-link {
+    text-decoration: none;
+}
+
+.navbar-link:visited {
+    color: inherit;
+}
+
+
 .navbar-list-item:last-child {
     margin-bottom: 0;
 }
